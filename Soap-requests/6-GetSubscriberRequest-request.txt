@@ -1,0 +1,15 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+  <se:Body>
+    <GetSubscriberRequest xmlns="http://broadhop.com/unifiedapi/soap/types">
+      <audit>
+        <id>username1</id>
+        <comment>comment</comment>
+      </audit>
+      <networkId>username1</networkId>
+      <returnSessions>false</returnSessions>
+      <returnBalances>false</returnBalances>
+      <includeExpiredData>false</includeExpiredData>
+      <excludeReservationsFromCreditTotal>false</excludeReservationsFromCreditTotal>
+    </GetSubscriberRequest>
+  </se:Body>
+</se:Envelope>

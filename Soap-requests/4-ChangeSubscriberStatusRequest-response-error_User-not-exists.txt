@@ -1,0 +1,8 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+   <se:Body>
+      <ChangeSubscriberStatusResponse xmlns="http://broadhop.com/unifiedapi/soap/types">
+         <errorCode>45</errorCode>
+         <errorMessage>Error Changing the Status for Subscriber: subscriber is null</errorMessage>
+      </ChangeSubscriberStatusResponse>
+   </se:Body>
+</se:Envelope>

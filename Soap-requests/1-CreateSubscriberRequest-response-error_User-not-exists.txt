@@ -1,0 +1,8 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+   <se:Body>
+      <CreateSubscriberResponse xmlns="http://broadhop.com/unifiedapi/soap/types">
+         <errorCode>9</errorCode>
+         <errorMessage>Duplicate Value for Unique Data Constraint: credential networkId: 4118402300000031</errorMessage>
+      </CreateSubscriberResponse>
+   </se:Body>
+</se:Envelope>

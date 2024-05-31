@@ -1,0 +1,12 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+  <se:Body>
+    <DeleteSubscriberRequest xmlns="http://broadhop.com/unifiedapi/soap/types">
+      <audit>
+        <id>4118402300000031</id>
+        <comment>comment</comment>
+      </audit>
+      <networkId>4118402300000031</networkId>
+      <hardDelete>true</hardDelete>
+    </DeleteSubscriberRequest>
+  </se:Body>
+</se:Envelope>

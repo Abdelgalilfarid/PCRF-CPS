@@ -1,0 +1,33 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+   <se:Body>
+      <GetSubscriberResponse xmlns="http://broadhop.com/unifiedapi/soap/types">
+         <errorCode>0</errorCode>
+         <errorMessage>Request completed successfully</errorMessage>
+         <subscriber>
+            <id>001000001bbc5e4a5ca3fb8d</id>
+            <credential>
+               <networkId>username1</networkId>
+            </credential>
+            <service>
+               <code>Bravo</code>
+               <enabled>true</enabled>
+            </service>
+            <status>INACTIVE</status>
+            <billingInfo/>
+            <avp>
+               <code>UserProfile</code>
+               <value>Value1</value>
+            </avp>
+            <avp>
+               <code>Event</code>
+               <value>ValueX</value>
+            </avp>
+            <avp>
+               <code>Boost</code>
+               <value>True</value>
+            </avp>
+            <version>2</version>
+         </subscriber>
+      </GetSubscriberResponse>
+   </se:Body>
+</se:Envelope>

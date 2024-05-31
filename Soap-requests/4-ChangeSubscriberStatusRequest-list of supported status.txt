@@ -1,0 +1,1 @@
+value comes from list: {'ACTIVE'|'DELETED'|'SUSPENDED'|'INACTIVE'}

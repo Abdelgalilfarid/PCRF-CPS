@@ -1,0 +1,13 @@
+
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+  <se:Body>
+    <ChangeSubscriberStatusRequest xmlns="http://broadhop.com/unifiedapi/soap/types">
+      <audit>
+        <id>username1</id>
+        <comment>comment</comment>
+      </audit>
+      <networkId>username1</networkId>
+      <status>INACTIVE</status>
+    </ChangeSubscriberStatusRequest>
+  </se:Body>
+</se:Envelope>

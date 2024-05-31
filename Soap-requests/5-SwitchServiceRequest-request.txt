@@ -1,0 +1,16 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+  <se:Body>
+    <SwitchServiceRequest xmlns="http://broadhop.com/unifiedapi/soap/types">
+      <audit>
+        <id>username1</id>
+        <comment>comment</comment>
+      </audit>
+      <networkId>username1</networkId>
+      <oldServiceCode>Bravo</oldServiceCode>
+      <service>
+        <code>SERVICE_A</code>
+        <enabled>true</enabled>
+      </service> 
+    </SwitchServiceRequest>
+  </se:Body>
+</se:Envelope>

@@ -1,0 +1,8 @@
+<se:Envelope xmlns:se="http://schemas.xmlsoap.org/soap/envelope/">
+   <se:Body>
+      <UpdateSubscriberResponse xmlns="http://broadhop.com/unifiedapi/soap/types">
+         <errorCode>0</errorCode>
+         <errorMessage>Request completed successfully</errorMessage>
+      </UpdateSubscriberResponse>
+   </se:Body>
+</se:Envelope>
