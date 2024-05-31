@@ -19,9 +19,9 @@ The script logs its activities to the terminal, providing feedback on the operat
 
 1. **Make the script executable:**
 
-```chmod +x profile_service_change.sh```
+```chmod +x Change_service.sh```
 
 2. **Run the script ** 
 
-```./profile_service_change.sh```
+```./Change_service.sh```
  
